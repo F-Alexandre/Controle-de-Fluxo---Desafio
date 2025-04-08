@@ -1,4 +1,14 @@
 package org.desafio.dio;
 
-public class ParametrosInvalidosException {
+import java.util.InputMismatchException;
+
+public class ParametrosInvalidosException extends Exception {
+
+
+    ParametrosInvalidosException(String msg){
+        super(msg);
+    }
+
+
+
 }
